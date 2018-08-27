@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41875" started-at="2018-06-04T09:54:54Z" finished-at="2018-06-04T09:55:36Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="41875" started-at="2018-06-04T09:54:54Z" finished-at="2018-06-04T09:55:36Z">
+      <class name="TestDataprovider.DataProvider_apache_02">
+        <test-method status="PASS" signature="Initialisation()[pri:0, instance:TestDataprovider.DataProvider_apache_02@5ba23b66]" name="Initialisation" is-config="true" duration-ms="16207" started-at="2018-06-04T15:24:54Z" finished-at="2018-06-04T15:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialisation -->
+        <test-method status="PASS" signature="Registration_data(java.lang.String, java.lang.String)[pri:0, instance:TestDataprovider.DataProvider_apache_02@5ba23b66]" name="Registration_data" duration-ms="11910" started-at="2018-06-04T15:25:11Z" data-provider="Authentication" finished-at="2018-06-04T15:25:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_data -->
+        <test-method status="PASS" signature="Registration_data(java.lang.String, java.lang.String)[pri:0, instance:TestDataprovider.DataProvider_apache_02@5ba23b66]" name="Registration_data" duration-ms="12546" started-at="2018-06-04T15:25:23Z" data-provider="Authentication" finished-at="2018-06-04T15:25:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_data -->
+        <test-method status="PASS" signature="endoperation()[pri:0, instance:TestDataprovider.DataProvider_apache_02@5ba23b66]" name="endoperation" is-config="true" duration-ms="720" started-at="2018-06-04T15:25:35Z" finished-at="2018-06-04T15:25:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endoperation -->
+      </class> <!-- TestDataprovider.DataProvider_apache_02 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
